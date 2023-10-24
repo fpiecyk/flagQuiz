@@ -1,0 +1,247 @@
+full_name;short_name;flag_img
+Afghanistan;af;af.png
+Aland Islands;ax;ax.png
+Albania;al;al.png
+Algeria;dz;dz.png
+American Samoa;as;as.png
+Andorra;ad;ad.png
+Angola;ao;ao.png
+Anguilla;ai;ai.png
+Antarctica;aq;aq.png
+Antigua and Barbuda;ag;ag.png
+Argentina;ar;ar.png
+Armenia;am;am.png
+Aruba;aw;aw.png
+Australia;au;au.png
+Austria;at;at.png
+Azerbaijan;az;az.png
+Bahamas;bs;bs.png
+Bahrain;bh;bh.png
+Bangladesh;bd;bd.png
+Barbados;bb;bb.png
+Belarus;by;by.png
+Belgium;be;be.png
+Belize;bz;bz.png
+Benin;bj;bj.png
+Bermuda;bm;bm.png
+Bhutan;bt;bt.png
+Bolivia;bs;bs.png
+Bosnia and Herzegovina;ba;ba.png
+Botswana;bw;bw.png
+Bouvet Island;bv;bv.png
+Brazil;br;br.png
+British Indian Ocean Territory;io;io.png
+Brunei Darussalam;bn;bn.png
+Bulgaria;bg;bg.png
+Burkina Faso;bf;bf.png
+Burundi;bi;bi.png
+Cambodia;kh;kh.png
+Cameroon;cm;cm.png
+Canada;ca;ca.png
+Cape Verde;cv;cv.png
+Cayman Islands;ky;ky.png
+Central African Republic;cf;cf.png
+Chad;td;td.png
+Chile;cl;cl.png
+China;cn;cn.png
+Christmas Island;cx;cx.png
+Cocos (Keeling) Islands;cc;cc.png
+Colombia;co;co.png
+Comoros;km;km.png
+Congo;cg;cg.png
+Democratic Republic of the Congo;cd;cd.png
+Cook Islands;ck;ck.png
+Costa Rica;cr;cr.png
+Ivory Coast;ci;ci.png
+Croatia;hr;hr.png
+Cuba;cu;cu.png
+Cyprus;cy;cy.png
+Czech Republic;cz;cz.png
+Denmark;dk;dk.png
+Djibouti;dj;dj.png
+Dominica;dm;dm.png
+Dominican Republic;do;do.png
+Ecuador;ec;ec.png
+Egypt;eg;eg.png
+El Salvador;sv;sv.png
+Equatorial Guinea;gq;gq.png
+Eritrea;er;er.png
+Estonia;ee;ee.png
+Ethiopia;et;et.png
+Falkland Islands (Malvinas);fk;fk.png
+Faroe Islands;fo;fo.png
+Fiji;fj;fj.png
+Finland;fi;fi.png
+France;fr;fr.png
+French Guiana;gf;gf.png
+French Polynesia;pf;pf.png
+French Southern Territories;tf;tf.png
+Gabon;ga;ga.png
+Gambia;gm;gm.png
+Georgia;ge;ge.png
+Germany;de;de.png
+Ghana;gh;gh.png
+Gibraltar;gi;gi.png
+Greece;gr;gr.png
+Greenland;gl;gl.png
+Grenada;gd;gd.png
+Guadeloupe;gp;gp.png
+Guam;gu;gu.png
+Guatemala;gt;gt.png
+Guernsey;gg;gg.png
+Guinea;gn;gn.png
+Guinea-Bissau;gw;gw.png
+Guyana;gy;gy.png
+Haiti;ht;ht.png
+Heard Island and McDonald Islands;hm;hm.png
+Holy See (Vatican City State);va;va.png
+Honduras;hn;hn.png
+Hong Kong;hk;hk.png
+Hungary;hu;hu.png
+Iceland;is;is.png
+India;in;in.png
+Indonesia;id;id.png
+Iran;ir;ir.png
+Iraq;iq;iq.png
+Ireland;ie;ie.png
+Isle of Man;im;im.png
+Israel;il;il.png
+Italy;it;it.png
+Jamaica;jm;jm.png
+Japan;jp;jp.png
+Jersey;je;je.png
+Jordan;jo;jo.png
+Kazakhstan;kz;kz.png
+Kenya;ke;ke.png
+Kiribati;ki;ki.png
+Korea North;kp;kp.png
+Korea South;kr;kr.png
+Kuwait;kw;kw.png
+Kyrgyzstan;kg;kg.png
+Lao People's Democratic Republic;la;la.png
+Latvia;lv;lv.png
+Lebanon;lb;lb.png
+Lesotho;ls;ls.png
+Liberia;lr;lr.png
+Libyan Arab Jamahiriya;ly;ly.png
+Liechtenstein;li;li.png
+Lithuania;lt;lt.png
+Luxembourg;lu;lu.png
+Macao;mo;mo.png
+Macedonia;mk;mk.png
+Madagascar;mg;mg.png
+Malawi;mw;mw.png
+Malaysia;my;my.png
+Maldives;mv;mv.png
+Mali;ml;ml.png
+Malta;mt;mt.png
+Marshall Islands;mh;mh.png
+Martinique;mq;mq.png
+Mauritania;mr;mr.png
+Mauritius;mu;mu.png
+Mayotte;yt;yt.png
+Mexico;mx;mx.png
+Micronesia;fm;fm.png
+Moldova;md;md.png
+Monaco;mc;mc.png
+Mongolia;mn;mn.png
+Montenegro;me;me.png
+Montserrat;ms;ms.png
+Morocco;ma;ma.png
+Mozambique;mz;mz.png
+Myanmar;mm;mm.png
+Namibia;na;na.png
+Nauru;nr;nr.png
+Nepal;np;np.png
+Netherlands;nl;nl.png
+Netherlands Antilles;an;an.png
+New Caledonia;nc;nc.png
+New Zealand;nz;nz.png
+Nicaragua;ni;ni.png
+Niger;ne;ne.png
+Nigeria;ng;ng.png
+Niue;nu;nu.png
+Norfolk Island;nf;nf.png
+Northern Mariana Islands;mp;mp.png
+Norway;no;no.png
+Oman;om;om.png
+Pakistan;pk;pk.png
+Palau;pw;pw.png
+Palestinian Territory;ps;ps.png
+Panama;pa;pa.png
+Papua New Guinea;pg;pg.png
+Paraguay;py;py.png
+Peru;pe;pe.png
+Philippines;ph;ph.png
+Pitcairn;pn;pn.png
+Poland;pl;pl.png
+Portugal;pt;pt.png
+Puerto Rico;pr;pr.png
+Qatar;qa;qa.png
+Réunion;re;re.png
+Romania;ro;ro.png
+Russian Federation;ru;ru.png
+Rwanda;rw;rw.png
+Saint Barthelemy;bl;bl.png
+Saint Helena;sh;sh.png
+Saint Kitts and Nevis;kn;kn.png
+Saint Lucia;lc;lc.png
+Saint Martin (French part);mf;mf.png
+Saint Pierre and Miquelon;pm;pm.png
+Saint Vincent and the Grenadines;vc;vc.png
+Samoa;ws;ws.png
+San Marino;sm;sm.png
+Sao Tome and Principe;st;st.png
+Saudi Arabia;sa;sa.png
+Senegal;sn;sn.png
+Serbia;rs;rs.png
+Seychelles;sc;sc.png
+Sierra Leone;sl;sl.png
+Singapore;sg;sg.png
+Slovakia;sk;sk.png
+Slovenia;si;si.png
+Solomon Islands;sb;sb.png
+Somalia;so;so.png
+South Africa;za;za.png
+South Georgia and the South Sandwich Islands;gs;gs.png
+Spain;es;es.png
+Sri Lanka;lk;lk.png
+Sudan;sd;sd.png
+Suriname;sr;sr.png
+Svalbard and Jan Mayen;sj;sj.png
+Swaziland;sz;sz.png
+Sweden;se;se.png
+Switzerland;ch;ch.png
+Syrian Arab Republic;sy;sy.png
+Taiwan;tw;tw.png
+Tajikistan;tj;tj.png
+Tanzania;tz;tz.png
+Thailand;th;th.png
+Timor-Leste;tl;tl.png
+Togo;tg;tg.png
+Tokelau;tk;tk.png
+Tonga;to;to.png
+Trinidad and Tobago;tt;tt.png
+Tunisia;tn;tn.png
+Turkey;tr;tr.png
+Turkmenistan;tm;tm.png
+Turks and Caicos Islands;tc;tc.png
+Tuvalu;tv;tv.png
+Uganda;ug;ug.png
+Ukraine;ua;ua.png
+United Arab Emirates;ae;ae.png
+United Kingdom;gb;gb.png
+United States;us;us.png
+United States Minor Outlying Islands;um;um.png
+Uruguay;uy;uy.png
+Uzbekistan;uz;uz.png
+Vanuatu;vu;vu.png
+Venezuela;ve;ve.png
+Viet Nam;vn;vn.png
+Virgin Islands  British;vg;vg.png
+Virgin Islands  U.S.;vi;vi.png
+Wallis and Futuna;wf;wf.png
+Western Sahara;eh;eh.png
+Yemen;ye;ye.png
+Zambia;zm;zm.png
+Zimbabwe;zw;zw.png
