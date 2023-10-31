@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Score
+{% endblock title %}
+
+
+{% block content %}
+
+<h3>Result of {{results_data.player}}  is: {{results_data.player_score}}</h3>
+<a href="{% url 'home' %}">Play again</a>
+
+
+{% endblock content %}
+

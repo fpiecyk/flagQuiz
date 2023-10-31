@@ -1,14 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flag Quiz</title>
-</head>
-<body>
-    <h1>Flags!!!!</h1>
-    <h3>{{poland.full_name}}</h3>
-    <h4>{{poland.flag_img}}</h4>
-    <img src="{{poland.flag_img.url}}" alt="{{poland.flag_img}}">
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}
+    Flag Quiz
+{% endblock title %}
+
+
+{% block content %}
+
+    
+    <h1>Which country's is the flag below?</h1>
+    <img src="{{correct_answer.flag_img.url}}" alt="{{correct_answer.flag_img.url}}">  
+    
+    <form action="{% url 'home' %}" method="POST">
+        <input type="hidden" name="correct_answer" value="{{correct_answer.full_name}}">
+
+    <ul>
+            {% for answer in all_variants %}
+                <li><button type="submit" name="selected_answer" value="{{answer.full_name}}">{{answer.full_name}}</button></li>
+            {% endfor %}
+
+        {% csrf_token %}
+    </ul>
+    </form>
+    
+    {% if message %}
+        {{message}}        
+    {% endif %}
+    <form action="{% url 'final_score' %}" method="POST">
+        <button type="submit">Finish quiz</button>
+        {% csrf_token %}
+    </form>
+    <!-- <a href="{% url 'final_score' %}">Finish quiz</a> -->
+    
+{% endblock content %}
