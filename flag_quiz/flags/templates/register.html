@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 {% block title %}
     Register
@@ -6,30 +7,38 @@
 
 
 {% block content %}
-<h1>Register</h1>
+<div class="container bg-primary-subtle">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="text-center">Register</h1>
 
-{% if password_errors %}
-<h3>There is a problem with you password:</h3>
-    <ul>
-        {% for pass_err in password_errors %}
-        <li>{{pass_err}}</li>
-        {% endfor %}
-    </ul>
+            {% if password_errors %}
+            <div class="alert alert-danger">
+                <h3>There is a problem with you password:</h3>
+                    <ul>
+                        {% for pass_err in password_errors %}
+                        <li>{{pass_err}}</li>
+                        {% endfor %}
+                    </ul>
 
-{% endif %}
+            {% endif %}
 
-{% if error %}
-    <h3>{{error}}</h3>
-{% endif %}
+            {% if error %}
+            <div class="alert alert-danger">
+                <h3>{{error}}</h3>
+            {% endif %}
 
-<form action="{% url 'register' %}" method="post">
+            <form action="{% url 'register' %}" method="post">
 
-    {{user_form}}
+                {{user_form | crispy}}
 
-    {% csrf_token %}
-    
-    <button type="submit">Submit</button>
-</form>
+                {% csrf_token %}
+                
+                <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 {% endblock content %}
     
     

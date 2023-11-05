@@ -5,9 +5,16 @@
 {% endblock title %}
 
 {% block content %}
-
-{% for result in queryset  %}
-    <h3>{{result.player}}   |    {{result.player_score}}</h3>
-{% endfor %}
-    
+<div class="container bg-primary-subtle">
+    <div class="row justify-content-center">
+        <table class="table table-primary table-striped">
+                {% for result in queryset  %}
+                <tr>
+                    <td>{{result.player}}</td>
+                    <td> {{result.player_score}}</td>
+                </tr>
+                {% endfor %}
+        </table>  
+    </div>
+</div>
 {% endblock content %}

@@ -5,31 +5,39 @@
 {% endblock title %}
 
 
-{% block content %}
+{% block content %} 
+<div class="bg-primary-subtle">
+{% if answered_questions < 21 %}
 
-    
-    <h1>Which country's is the flag below?</h1>
-    <img src="{{correct_answer.flag_img.url}}" alt="{{correct_answer.flag_img.url}}">  
-    
+     
+    <h2 class="text-center">Which country's is the flag below?</h1>
+    <img src="{{correct_answer.flag_img.url}}" class="rounded mx-auto d-block" alt="{{correct_answer.flag_img.url}}">  
+    <h4 class="text-center">Question {{ answered_questions }} / 20:</h4>
     <form action="{% url 'home' %}" method="POST">
         <input type="hidden" name="correct_answer" value="{{correct_answer.full_name}}">
+        <div class="btn-group-horizontal d-grid gap-2 col-6 mx-auto">
 
-    <ul>
             {% for answer in all_variants %}
-                <li><button type="submit" name="selected_answer" value="{{answer.full_name}}">{{answer.full_name}}</button></li>
+                <button class="btn btn-outline-secondary" type="submit" name="selected_answer" value="{{answer.full_name}}">{{answer.full_name}}</button>
             {% endfor %}
 
         {% csrf_token %}
-    </ul>
+        </div>
     </form>
     
     {% if message %}
-        {{message}}        
+        <p class="text-center lead text-primary">{{message}}   </p>     
     {% endif %}
-    <form action="{% url 'final_score' %}" method="POST">
-        <button type="submit">Finish quiz</button>
-        {% csrf_token %}
-    </form>
-    <!-- <a href="{% url 'final_score' %}">Finish quiz</a> -->
-    
+
+{% else %}
+    {% if user.is_authenticated %}
+        <form action="{% url 'final_score' %}" method="POST">
+            <button class="btn btn-outline-secondary d-grid gap-2 col-6 mx-auto" type="submit">Finish quiz</button>
+            {% csrf_token %}
+        </form>
+    {% else %}
+        <h3 class="text-center  text-danger">Please login to send your result</h3>
+    {% endif %}
+{% endif %}
+</div>
 {% endblock content %}

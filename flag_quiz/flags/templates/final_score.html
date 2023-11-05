@@ -6,10 +6,11 @@
 
 
 {% block content %}
-
-<h3>Result of {{results_data.player}}  is: {{results_data.player_score}}</h3>
-<a href="{% url 'home' %}">Play again</a>
-
-
+<div class="bg-primary-subtle">
+    <div class="text-center">
+        <h3>Result of {{results_data.player}}  is: {{results_data.player_score}}</h3>
+        <a class="btn btn-secondary btn-block mt-3" href="{% url 'home' %}">Play again</a>
+    </div>
+</div>
 {% endblock content %}
 
